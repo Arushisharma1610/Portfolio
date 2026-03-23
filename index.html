@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arushi Sharma — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Cabinet+Grotesk:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Scroll progress bar -->
+  <div id="scroll-bar"></div>
+
+  <!-- Navbar — filled by JS -->
+  <nav id="nav"></nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div id="hero-content"></div>
+    <div class="ticker-wrap reveal" id="ticker-wrap"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section reveal" id="about">
+    <div class="sec-label">01 — About</div>
+    <h2 class="sec-title">Who I <em>am</em></h2>
+    <p class="about-intro">
+      I'm a Computer Science graduate from SRMS College of Engineering, Bareilly —
+      passionate about building products that are fast, scalable, and genuinely useful.
+      I thrive at the intersection of clean backend architecture and thoughtful frontend design.
+    </p>
+    <div class="about-grid" id="about-grid"></div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section reveal" id="skills">
+    <div class="sec-label">02 — Skills</div>
+    <h2 class="sec-title">Tech <em>Stack</em></h2>
+    <div class="skills-layout" id="skills-layout"></div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section reveal" id="experience">
+    <div class="sec-label">03 — Experience</div>
+    <h2 class="sec-title">Where I've <em>worked</em></h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section reveal" id="projects">
+    <div class="sec-label">04 — Projects</div>
+    <h2 class="sec-title">Things I've <em>built</em></h2>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="section reveal" id="achievements">
+    <div class="sec-label">05 — Achievements</div>
+    <h2 class="sec-title">Wins &amp; <em>Recognition</em></h2>
+    <div class="ach-grid" id="ach-grid"></div>
+  </section>
+
+  <!-- Resume Download -->
+  <section id="resume">
+    <div class="resume-box reveal" id="resume-box"></div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section reveal" id="contact">
+    <div class="sec-label">07 — Contact</div>
+    <div class="contact-layout" id="contact-layout"></div>
+  </section>
+
+  <!-- Footer — filled by JS -->
+  <footer id="footer"></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
