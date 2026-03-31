@@ -28,7 +28,7 @@ const DATA = {
   name:      "Arushi Sharma",
   role:      "Full Stack Web Developer",
   tagline:   "Building scalable web applications — from RESTful APIs to real-time WebSocket systems. Clean architecture, competitive C++ problem solving, code that ships.",
-  email:     "arushisharma2003bly@gmail.com",
+  email:     "arushisharma.dev@gmail.com",
   location:  "Bareilly, Uttar Pradesh",
   status:    "Open to Opportunities",   // shown in the nav badge
   resumePDF: "Arushi_Sharma.pdf",      // keep this PDF in the same folder
