@@ -31,7 +31,7 @@ const DATA = {
   email:     "arushisharma2003bly@gmail.com",
   location:  "Bareilly, Uttar Pradesh",
   status:    "Open to Opportunities",   // shown in the nav badge
-  resumePDF: "Arushi_Sharma_.pdf",      // keep this PDF in the same folder
+  resumePDF: "Arushi_Sharma.pdf",      // keep this PDF in the same folder
 
   /* ── Social links ── */
   links: {
